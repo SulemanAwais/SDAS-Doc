@@ -1,0 +1,8 @@
+{
+  "label": "Sensors in SmartPhone",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "How the sensor data of smartphone is acquised."
+  }
+}
