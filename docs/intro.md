@@ -1,75 +1,30 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 slug: /intro
 ---
 
-# What are sensors?
+**Human Activity Recognition** continues to present a formidable challenge, however, it is imperative to find a solution due to its potential applications in eldercare and healthcare. When combined with technologies such as the Internet of Things (IoT), it has the potential to serve as an effective assistive technology. This recognition can be achieved through the use of sensors or through cameras.
+If we talk about camera,there are several limitations of monitoring human activity using them such as: 
+- Privacy Concerns: The use of cameras for monitoring raises serious privacy concerns, as people may not want to be monitored constantly.
 
-Sensors are an integral part of modern living. If you are reading this article on a computer, you are most likely using a mouse, which contains an optical sensor. If you are on a smartphone, you are using touch sensors every time you touch the screen.
-In Sensor Data Acquisition System, we have coverred five sensors
- - **Accelerometer** 
- - **Gyroscope** 
- - **Magnetometer**
- - **Linear Acceleration**
- - **Gravity**
-## Accelerometer
+- Technical Limitations: Camera-based activity recognition can be limited by lighting conditions, camera placement, and other technical factors that can affect the quality of the video footage.
 
-The accelerometer is an electromechanical device that measures the force of acceleration caused by movement or by gravity or by vibration. These forces can be static like gravity force, dynamic senses movement, or vibrations.
-<!-- 
-#### Accelerometer in smart devices
-The accelerometer in smartphone measures the linear acceleration of the device. When at rest position in whatever orientation, the figure represents the force of gravity active on the device at the same time it also measures the acceleration on the X and Y axis which will be zero.
-It detects changes in the orientation and accordingly rotates the mobile screen. Basically, it helps your smartphone know up form down. -->
+- False Recognitions: The accuracy of camera-based activity recognition can be affected by factors such as body posture, clothing, and background clutter, leading to false recognitions.
 
+- Cost: Camera-based activity recognition systems can be expensive to set up and maintain, requiring specialized hardware and software.
 
-## Gyroscope
+- Limited Scope: Camera-based activity recognition systems are typically limited to indoor environments and may not be suitable for outdoor or large-scale applications.
 
-A gyroscope sensor is basically a device that takes the help of the earth’s gravity in determining the orientation. It is is generally used to measure the orientation of bodies. It can be used to measure the angular motion in moving bodies.A gyroscope is considered to be an extremely important device because of its ability to measure orientation. 
+Keeping all the above listed points in mind, a sensor-based activity monitoring system would be a better option because of its benefits like:
 
-<!-- #### Gyroscope in smart devices
+- Privacy: Sensors do not capture images or videos, **reducing privacy concerns** and making them more acceptable to people who are being monitored.
 
-Gyroscope Sensors have become an indispensable part of smartdevices these days. All the games which we play using motion senses are because of the gyroscope sensor. One of the best examples is the very popular Pokemon Go game which is completely based on the principle of gyroscopic sensors. We also need a gyroscope to view 360-degree videos on our mobile phones. -->
+- Increased Accuracy: Sensors can provide more accurate data compared to cameras as they can measure physical parameters such as movement, pressure, and acceleration more effectively.
 
-## Magnetometer
+- Lower Cost: Sensors are typically less expensive than cameras and can be used in a wider range of applications. They can also be more scalable, allowing for large-scale monitoring systems to be set up more easily and cost-effectively.
 
-A magnetometer or compass is a navigation instrument that can identify a specific reference direction (usually the north) in the horizontal plane, allowing horizontal angles to be measured with respect to this direction. Magnetometers can work in several ways. The simplest, the magnetic compass, also simply known as a magnetometer, tracks the orientation of a magnetic needle within the Earth’s magnetic field, in the same way as a traditional compass.
+- Flexibility: Sensors can be integrated into various wearable devices, such as smartwatches, fitness trackers, and clothing, making it possible to monitor activity in real-time.
 
-<!-- #### Magnetometer in smart devices
+- Versatility: Sensors can be used for activity recognition in both indoor and outdoor environments and can be integrated into various applications such as healthcare, eldercare, sports, and more.
 
-The magnetometer sensor in a device detects the magnetic orientation of the device in relation to the X, Y and Z axes in relation to the real world north direction beside electromagnetic field EMF. -->
-
-
-<!-- Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes. -->
+In conclusion, while both camera-based and sensor-based activity monitoring systems have their strengths and weaknesses, **sensor-based systems** offer several benefits that make them an attractive option for many applications.
