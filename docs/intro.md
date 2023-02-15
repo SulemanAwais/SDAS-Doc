@@ -2,6 +2,7 @@
 sidebar_position: 1
 slug: /intro
 ---
+# Introduction
 
 **Human Activity Recognition** continues to present a formidable challenge, however, it is imperative to find a solution due to its potential applications in eldercare and healthcare. When combined with technologies such as the Internet of Things (IoT), it has the potential to serve as an effective assistive technology. This recognition can be achieved through the use of sensors or through cameras.
 If we talk about camera,there are several limitations of monitoring human activity using them such as: 
