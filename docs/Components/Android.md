@@ -5,10 +5,10 @@ sidebar_position: 1
 # Mobile App 
 The mobile application is developed in [Android](https://developer.android.com/)
 
-## Sensor Data Acquiring :
-- It retreives the data of listed sensors of the mobile device i.e., Accelerometer etc.
-- Timestamps are also recorded here
-- It takes input from the user about IP Address*
+## Sensor Data Acqusition :
+- It receives the data from the listed sensors of the mobile device, e.g. the accelerometer, etc.
+- Timestamps are also recorded along with the data.
+- It takes input from the user about IP Address.
 - It shows the data of sensors of smartphone. 
 ## How to access the data ?
 
