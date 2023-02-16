@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-               While wearing smart devices, the subject performs any activity in which movement of body parts is involved.
+               While wearing smart devices, the subject performs any activity that requires.
 
       </>
     ),
@@ -18,8 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Data from several sensors would be gathered from the devices that the subject was keeping.
-        This data would be recorded without any leakage. 
+        Data is collected from several sensors from the devices carried by the subject. This data is recorded without anything leaking out. 
       </>
     ),
   },
