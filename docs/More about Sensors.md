@@ -11,7 +11,7 @@ In Sensor Data Acquisition System, we have coverred five sensors
  - **Accelerometer** 
  - **Gyroscope** 
  - **Magnetometer**
- - **Linear Acceleration**
+ - **Linear Accelerometer**
  - **Gravity**
 ## Accelerometer
 
@@ -37,3 +37,8 @@ A magnetometer is a device that measures magnetic field or magnetic dipole momen
 <!-- #### Magnetometer in smart devices
 
 The magnetometer sensor in a device detects the magnetic orientation of the device in relation to the X, Y and Z axes in relation to the real world north direction beside electromagnetic field EMF. -->
+## Linear Accelerometer
+The linear accelerometer measures the acceleration applied to the sensor built-in into the device, excluding the force of gravity, in m/s². For example, you could use this sensor to see how fast your car is going. The linear acceleration sensor always has an offset, which you need to remove. The simplest way to do this is to build a calibration step into your application([AWARE](https://awareframework.com/linear-accelerometer/)).
+
+## Gravity
+Gravity sensors are precise devices that detect minute localized changes in the force of Earth’s gravity caused by variations in rock or other materials’ density underground([Ben Pilkington](https://www.azosensors.com/article.aspx?ArticleID=2482#:~:text=Gravity%20sensors%20are%20precise%20devices,greater%20detail%20than%20ever%20before.)).
