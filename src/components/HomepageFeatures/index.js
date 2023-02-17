@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-               While wearing smart devices, the subject performs any activity that requires.
+               While wearing smart devices, the subject performs any activity that requires movement of body parts.
 
       </>
     ),
