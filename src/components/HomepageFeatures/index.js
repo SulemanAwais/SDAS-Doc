@@ -22,16 +22,15 @@ const FeatureList = [
       </>
     ),
   },
-  // {
-  //   title: 'Powered by React',
-  //   Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-  //   description: (
-  //     <>
-  //       Extend or customize your website layout by reusing React. Docusaurus can
-  //       be extended while reusing the same header and footer.
-  //     </>
-  //   ),
-  // },
+  {
+    title: 'Data Storage and Processing:',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Stores large amounts of data acquired from sensors, process and analyze it in real-time.
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, title, description}) {
