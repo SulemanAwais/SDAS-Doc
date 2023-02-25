@@ -42,3 +42,6 @@ The linear accelerometer measures the acceleration applied to the sensor built-i
 
 ## Gravity
 Gravity sensors are precise devices that detect minute localized changes in the force of Earth’s gravity caused by variations in rock or other materials’ density underground([Ben Pilkington](https://www.azosensors.com/article.aspx?ArticleID=2482#:~:text=Gravity%20sensors%20are%20precise%20devices,greater%20detail%20than%20ever%20before.)).
+
+##References
+
