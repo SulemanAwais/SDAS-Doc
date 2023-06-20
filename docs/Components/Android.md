@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# SmartPhone Application 
+# Smartphone Application 
 The mobile application is developed in [Android](https://developer.android.com/)
 
 ## Sensor Data Acquisition:
