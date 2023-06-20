@@ -2,18 +2,17 @@
 sidebar_position: 2
 ---
 
-# Website
+# Web Application
 
 The website is developed using the [Flask](https://flask.palletsprojects.com/en/2.2.x/) web framework. The code implements a [REST-API](https://aws.amazon.com/what-is/restful-api/)  to receive sensor data, store the data in memory, and write the data to files when the recording is stopped. 
-Following are the role of this webiste:
-- It takes number of iterations and the activity name that is to be performed.
+Following is the role of this website:
+- It takes a number of iterations and the activity name that is to be performed.
 - It displays the real-time graphs of the received data using [chart.js](https://www.chartjs.org/docs/latest/)
-- It has start and stop buttons which starts receiving the data and plotting it and upon pressing the stop button it stores data in csv
-- It uses flask for backend
+- It has start and stop buttons which start receiving the data and plotting it and upon pressing the stop button it stores data in CSV
 - A custom API is also made
 
 
-## Sub-modules
+## Flask API
 
 The following are the main components and technologies used:
 
