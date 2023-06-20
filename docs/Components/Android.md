@@ -2,21 +2,21 @@
 sidebar_position: 1
 ---
 
-# Mobile App 
+# SmartPhone Application 
 The mobile application is developed in [Android](https://developer.android.com/)
 
-## Sensor Data Acqusition :
+## Sensor Data Acquisition:
 - It receives the data from the listed sensors of the mobile device, e.g. the accelerometer, etc.
 - Timestamps are also recorded along with the data.
-- It takes input from the user about IP Address.
-- It shows the data of sensors of smartphone. 
-## How to access the data ?
+- It takes input from the user about the IP address.
+- It shows the data from the sensors on a smartphone. 
+## How do I access the data ?
 
-This sensor returns multi-dimensional array of sensor values for each `SensorEvent`. For example, during a single sensor event the accelerometer returns acceleration force data for the three coordinate axes. These data values are returned in a `float` array (`values`) along with other `SensorEvent` parameters.
+This sensor returns a multi-dimensional array of sensor values for each `SensorEvent`. For example, during a single sensor event the accelerometer returns acceleration force data for the three coordinate axes. These data values are returned in a `float` array (`values`) along with other `SensorEvent` parameters.
 
 
 ### SensorEventListener
-First implement the **SensorEventListener** class in your java file and create instences of **SensorManager** and **Sensor**.SensorManager lets you access the device's sensors
+First, implement the **SensorEventListener** class in your Java file and create instances of **SensorManager** and **Sensor**.SensorManager lets you access the device's sensors
 
 
 ```jsx title="SensorActivity.java" {6,7,8}showLineNumbers
