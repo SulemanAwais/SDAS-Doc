@@ -4,8 +4,8 @@ slug: /intro
 ---
 # Introduction
 
-**Human Activity Recognition** continues to present a formidable challenge, however, it is imperative to find a solution due to its potential applications in eldercare and healthcare. When combined with technologies such as the Internet of Things (IoT), it has the potential to serve as an effective assistive technology. This recognition can be achieved through the use of sensors or through cameras.
-If we talk about camera,there are several limitations of monitoring human activity using them such as: 
+**Human Activity Recognition (HAR)  continues to present a formidable challenge, however, it is imperative to find a solution due to its potential applications in eldercare and healthcare. When combined with technologies such as the Internet of Things (IoT), it has the potential to serve as an effective assistive technology. This recognition can be achieved through the use of sensors or cameras.
+If we talk about cameras, there are several limitations to monitoring human activity using them such as: 
 - Privacy Concerns: The use of cameras for monitoring raises serious privacy concerns, as people may not want to be monitored constantly.
 
 - Technical Limitations: Camera-based activity recognition can be limited by lighting conditions, camera placement, and other technical factors that can affect the quality of the video footage.
