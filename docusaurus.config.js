@@ -91,7 +91,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
                 to: '/docs/intro',
               },
             ],
@@ -103,18 +103,18 @@ const config = {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com',
               },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com',
-              },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com',
+              // },
+              // {
+              //   label: 'Twitter',
+              //   href: 'https://twitter.com',
+              // },
             ],
           },
           {
-            title: 'More',
+            title: 'Source Code',
             items: [
 //               {
 //                 label: 'Blog',
