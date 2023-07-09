@@ -4,30 +4,30 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Perform an activity',
+    title: 'Connect all devices',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-               While wearing smart devices, the subject performs any activity that requires movement of body parts.
+               Connect all three smart devices to the system.
 
       </>
     ),
   },
   {
-    title: 'Get sensors data',
+    title: 'Perform an activity,
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Data is collected from several sensors from the devices carried by the subject. This data is recorded without anything leaking out. 
+        Perform any activity of your choice. 
       </>
     ),
   },
   {
-    title: 'Data Storage and Processing:',
+    title: 'Store and analyze data',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Stores large amounts of data acquired from sensors, process and analyze it in real-time.
+        Real-time data is stored and can be analyzed.
       </>
     ),
   },
